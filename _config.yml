@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -20,72 +20,72 @@
 
 
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://simply-jekyll.netlify.app/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://dansachs.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 #######################################################################
-# Settings related to the Header and your About page go here,such as 
-# your name, site name, profile pic, site tagline, your bio, 
+# Settings related to the Header and your About page go here,such as
+# your name, site name, profile pic, site tagline, your bio,
 # your social media links etc
 #######################################################################
 
-heading: Simply Jekyll
-subheading: # subheading won't work without a tagline, 
-          # tagline is mandatory if you want the 
+heading: Dan's Space
+subheading: # subheading won't work without a tagline,
+          # tagline is mandatory if you want the
           # suheading to appear. The reason is
-          # having a heading and a subheading looks 
+          # having a heading and a subheading looks
           # ridiculous.
   enabled: true
-  name: Notes and Thoughts
-tagline: # subheading won't work without a tagline, 
-         # tagline is mandatory if you want the 
+  name: Notes
+tagline: # subheading won't work without a tagline,
+         # tagline is mandatory if you want the
          # suheading to appear. The reason is
-         # having a heading and a subheading looks 
+         # having a heading and a subheading looks
          # ridiculous.
-         # Although you can have the tagline without 
+         # Although you can have the tagline without
          # the subheading to support the main heading
          # which in this case is 'Knowledge Continuum'
   enabled: true
-  name: An experiment to spark conversations
-copyright: 
-  year: 2020
-  msg: Raghuveer S # This is a mandatory attribute for copyright to be displayed
+  name: Student
+copyright:
+  year: 2021
+  msg: Dan S # This is a mandatory attribute for copyright to be displayed
 
 user:
   display: true # setting it to false will remove the header image and bio
-                # Note that user settings come wholesale, it does not have the 
+                # Note that user settings come wholesale, it does not have the
                 # granular enabling or disabling as with the 'preferences'
                 # or the site-wide settings.
-  name: Raghuveer S
-  bio: Programmer ∪ Writer
-  email: raghu-veer@outlook.com
-  photo: /assets/img/profile.png
+  name: Dan Sachs
+  bio: Linguist
+  email: ds1731@georgetown.edu
+  # photo: /assets/img/profile.png
   social: # just leave the field blank or type in null, if you don't have a
           # particular social media account and it won't appear
     enabled: false  # turn this to true
     twitter: raghuveerdotnet
-    github: raghuveerdotnet 
-    youtube: raghuveerdotnet 
-    linkedin: raghuveerdotnet  
+    github: raghuveerdotnet
+    youtube: raghuveerdotnet
+    linkedin: raghuveerdotnet
     twitch: null
-    facebook: null 
+    facebook: null
     instagram: null
 
 
 
 #####################################################################
 # Settings related to your preferences go here, such as the
-# search results, wiki-style-links, sidenotes, marginnotes, 
-# transclusion, pagepreview, backlinks, related posts, highlighting, 
+# search results, wiki-style-links, sidenotes, marginnotes,
+# transclusion, pagepreview, backlinks, related posts, highlighting,
 # context menu, flashcards, sliding window, wrapping
 #####################################################################
 preferences:
   search:
     enabled: true
-    shortcut_hint: 
+    shortcut_hint:
         enabled: true
   wiki_style_link: # This property handles wiki style links '[['
     enabled: true
-  sidenotes: 
+  sidenotes:
     enabled: true
   transclusion:
     enabled: true
@@ -95,7 +95,7 @@ preferences:
     enabled: true
   highlighting:
     enabled: true
-    color: DAEDFF # Takes hexadecimal and basic names like white, red, etc. 
+    color: DAEDFF # Takes hexadecimal and basic names like white, red, etc.
                   # Do not add '#'(the pound symbol) before the hexadecimal number.
                   # In yml, it is considered as a comment
   backlinks:
@@ -106,13 +106,13 @@ preferences:
     enabled: true
   contextmenu:
     enabled: true
-    copylink: 
+    copylink:
       enabled: true
-    newtab: 
+    newtab:
       enabled: true
-    backlinks: 
+    backlinks:
       enabled: true
-    related: 
+    related:
       enabled: true
   flashcards:
     enabled: true
@@ -122,15 +122,15 @@ encoding: utf-8
 # Build settings
 theme: null
 plugins:
-  - jekyll-feed 
-  - jekyll-sitemap 
+  - jekyll-feed
+  - jekyll-sitemap
   - jekyll-tidy
 
 # Disqus Comments
 disqus:
     # Leave shortname blank to disable comments site-wide.
     # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-    shortname: raghuveerdotnet
+    shortname: dansachs
 
 markdown: kramdown
 
@@ -140,7 +140,7 @@ kramdown:
   math_engine: katex
   smart_quotes: ["apos", "apos", "quot", "quot"]
   syntax_highlighter: rouge
-  
+
 sass:
   style: compressed
 
